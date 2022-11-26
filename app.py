@@ -84,8 +84,8 @@ def update_email():
 
 
 if __name__ == '__main__':
-    app.debug = True
-    app.run()
+    load_dotenv()
+    app.run(debug=False, port='4000', host='0.0.0.0')
 
 
 
