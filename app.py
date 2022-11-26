@@ -7,7 +7,6 @@ from shared.utils import Utils
 app = Flask(__name__)
 cors = CORS(app)
 credential_service = CredentialService()
-load_dotenv()
 
 
 @app.before_request
